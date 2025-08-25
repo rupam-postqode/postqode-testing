@@ -22,3 +22,7 @@ auth:
   options:
     bearer:
       token: Bearer here_is_the_token_for_tc_001
+testsScript: console.log("tests")
+preRequestScript: |-
+  console.log("pre request")
+  console.log("pre request one")
