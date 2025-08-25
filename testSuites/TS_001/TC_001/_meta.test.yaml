@@ -6,7 +6,17 @@ type: TESTCASE
 testSteps:
   - fileReference: Echo PostQode.request.yaml
     type: request
-headers: []
+headers:
+  - key: key_one
+    value: value_one
+    type: text
+    description: desc_one
+    disabled: false
+  - key: key_two
+    value: value_two
+    type: text
+    description: desc_two
+    disabled: false
 auth:
   type: bearer
   options:
