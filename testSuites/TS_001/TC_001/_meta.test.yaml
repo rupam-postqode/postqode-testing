@@ -1,0 +1,9 @@
+description: TC_001 Description
+id: 3e8841aa-9949-4fd8-afa7-1a5e50f2fe6a
+name: TC_001
+dependencies: []
+type: TESTCASE
+testSteps:
+  - fileReference: Echo PostQode.request.yaml
+    type: request
+headers: []
