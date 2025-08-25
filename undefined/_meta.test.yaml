@@ -1,0 +1,25 @@
+description: ''
+id: 5ee5ac64-00b6-49e4-b86f-12da30ee62c4
+name: TC_001
+dependencies: []
+type: TESTCASE
+testSuiteId: 7ee2b932-d8bb-4b6d-a242-224fc843d6fc
+parentId: 7ee2b932-d8bb-4b6d-a242-224fc843d6fc
+testSteps: []
+events:
+  - listen: test
+    script:
+      type: javascript
+      exec:
+        - pq.test("Response time is less than 200ms.", function () {
+        - '  pq.expect(pq.response.responseTime).to.be.below(200);'
+        - '});'
+        - ''
+  - listen: prerequest
+    script:
+      type: javascript
+      exec:
+        - pq.test("Response size is less than 4000b.", function () {
+        - '  pq.expect(pq.response.responseSize).to.be.below(4000);'
+        - '});'
+        - ''
