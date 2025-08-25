@@ -1,13 +1,26 @@
-description: ''
-id: a6749019-660c-49ed-b7bc-09e45baf962a
 name: TS_001
+description: TS_001 description
+id: a6749019-660c-49ed-b7bc-09e45baf962a
 disabled: false
-before: []
-beforeEach: []
-testGroup: []
-testCases: []
-afterEach: []
-after: []
-runConfigs: []
 auth:
-  type: none
+  type: bearer
+  options:
+    bearer:
+      token: Bearer token_for_test_suite_ts_001
+headers:
+  - key: suite_key_one
+    value: suite_value_one
+    type: text
+    description: suite_desc_one
+    disabled: false
+  - key: suite_key_two
+    value: suite_value_two
+    type: text
+    description: suite_desc_two
+    disabled: false
+preRequestScript: |-
+  console.log("test suite pre request one")
+  console.log("test suite pre request two")
+testsScript: |-
+  console.log("test suite tests one")
+  console.log("test suite tests two")
