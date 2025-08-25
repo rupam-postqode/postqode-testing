@@ -7,3 +7,8 @@ testSteps:
   - fileReference: Echo PostQode.request.yaml
     type: request
 headers: []
+auth:
+  type: bearer
+  options:
+    bearer:
+      token: Bearer here_is_the_token_for_tc_001
