@@ -1,0 +1,13 @@
+description: ''
+id: 26359dd0-17f1-4fb3-a1ce-add4fd9a301d
+name: TS_001
+disabled: false
+before: []
+beforeEach: []
+testGroup: []
+testCases: []
+afterEach: []
+after: []
+runConfigs: []
+auth:
+  type: none

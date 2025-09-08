@@ -1,0 +1,12 @@
+description: ''
+id: 04da1ee7-1bc2-41a4-99e6-88b207326059
+name: TC_002
+type: TESTCASE
+testSuiteId: 26359dd0-17f1-4fb3-a1ce-add4fd9a301d
+dependencies: []
+parentId: ffd8ece3-8445-4375-a675-3054c7a801ff
+testSteps:
+  - fileReference: RQ_002.request.yaml
+    type: request
+events: []
+headers: []
