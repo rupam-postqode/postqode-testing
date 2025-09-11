@@ -1,0 +1,15 @@
+description: ''
+id: 8b6c4a96-5fef-45a8-9238-7b30cde8ec1f
+name: TS_001
+disabled: false
+before: []
+beforeEach: []
+testGroup: []
+testCases: []
+afterEach: []
+after: []
+runConfigs: []
+auth:
+  type: none
+events: []
+headers: []
