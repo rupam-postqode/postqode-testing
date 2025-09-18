@@ -5,4 +5,6 @@ dependencies: []
 type: AFTER
 testSuiteId: 0ede9a03-bbc5-4a47-bc88-1db85953f68b
 parentId: 0ede9a03-bbc5-4a47-bc88-1db85953f68b
-testSteps: []
+testSteps:
+  - fileReference: RQ_01_HK_AA.request.yaml
+    type: request
