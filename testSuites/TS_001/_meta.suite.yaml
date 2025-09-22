@@ -1,0 +1,16 @@
+description: ''
+id: 0bae1799-a113-4533-bd23-78ac89e8ce91
+name: TS_001
+disabled: false
+before: []
+beforeEach: []
+testGroup: []
+testCases: []
+afterEach: []
+after: []
+runConfigs:
+  - name: RC_001
+    global: variables/echo.variable.yaml
+    environment: ''
+auth:
+  type: none

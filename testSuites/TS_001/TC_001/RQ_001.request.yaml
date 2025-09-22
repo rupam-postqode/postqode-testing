@@ -1,0 +1,38 @@
+id: 89363434-ebcd-47f2-b985-339d7f6eb0df
+name: RQ_001
+request:
+  url:
+    raw: '{{baseUrl}}/post'
+    host:
+      - '{{baseUrl}}'
+    path:
+      - post
+  method: POST
+  headers:
+    - description: ''
+      disabled: false
+      key: Cache-Control
+      value: no-cache
+    - description: ''
+      disabled: false
+      key: Accept
+      value: '*/*'
+    - description: ''
+      disabled: false
+      key: Accept-Encoding
+      value: gzip, deflate
+    - description: ''
+      disabled: false
+      key: Connection
+      value: keep-alive
+  body:
+    mode: formdata
+    formdata:
+      - key: username
+        value: '{{username}}'
+        type: text
+      - key: role
+        value: '{{role}}'
+        type: text
+events: []
+type: request

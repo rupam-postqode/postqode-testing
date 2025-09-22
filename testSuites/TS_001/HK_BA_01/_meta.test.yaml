@@ -1,0 +1,10 @@
+description: ''
+id: 0f27f1af-3e21-48f3-80d3-ee3db86a9cce
+name: HK_BA_01
+dependencies: []
+type: BEFORE
+testSuiteId: 0bae1799-a113-4533-bd23-78ac89e8ce91
+parentId: 0bae1799-a113-4533-bd23-78ac89e8ce91
+testSteps:
+  - fileReference: echo postqode get.request.yaml
+    type: request

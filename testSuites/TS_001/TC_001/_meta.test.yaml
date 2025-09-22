@@ -1,0 +1,11 @@
+description: ''
+id: 47335f80-6107-4dcb-8b94-f7ed82614154
+name: TC_001
+dependencies: []
+type: TESTCASE
+testSuiteId: 0bae1799-a113-4533-bd23-78ac89e8ce91
+parentId: 0bae1799-a113-4533-bd23-78ac89e8ce91
+testSteps:
+  - fileReference: RQ_001.request.yaml
+    type: request
+dataset: data/dataset.json
