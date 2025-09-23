@@ -1,9 +1,0 @@
-description: ''
-id: f970a053-862f-4a17-a346-e885c22289a4
-name: TC_TG_01
-dependencies: []
-type: TESTCASE
-testSteps:
-  - fileReference: echo postqode post.request.yaml
-    type: request
-dataset: data/dataset.json
