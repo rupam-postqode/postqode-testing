@@ -10,3 +10,5 @@ testSteps:
     type: request
   - fileReference: RQ_002.request.yaml
     type: request
+  - fileReference: RQ_003.request.yaml
+    type: request
