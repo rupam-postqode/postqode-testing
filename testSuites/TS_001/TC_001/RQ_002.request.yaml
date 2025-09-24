@@ -1,0 +1,29 @@
+id: 614b084d-d34a-40e9-85d6-7ebccc731e7b
+name: RQ_002
+request:
+  url:
+    raw: jdjdj
+    host:
+      - jdjdj
+  method: GET
+  headers:
+    - description: ''
+      disabled: false
+      key: Cache-Control
+      value: no-cache
+    - description: ''
+      disabled: false
+      key: Accept
+      value: '*/*'
+    - description: ''
+      disabled: false
+      key: Accept-Encoding
+      value: gzip, deflate
+    - description: ''
+      disabled: false
+      key: Connection
+      value: keep-alive
+  body:
+    mode: none
+events: []
+type: request
