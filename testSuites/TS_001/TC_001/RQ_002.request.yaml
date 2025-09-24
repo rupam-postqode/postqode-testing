@@ -2,9 +2,14 @@ id: 4f8a4231-e693-4ec4-b47d-6aaa3618b96a
 name: RQ_002
 request:
   url:
-    raw: jjj
+    raw: https://echo.postqode.io/get
+    protocol: https
     host:
-      - jjj
+      - echo
+      - postqode
+      - io
+    path:
+      - get
   method: GET
   headers:
     - description: ''
