@@ -8,3 +8,5 @@ parentId: b3817122-0ec2-490f-9294-54be28af6ee5
 testSteps:
   - fileReference: RQ_001.request.yaml
     type: request
+  - fileReference: RQ_002.request.yaml
+    type: request

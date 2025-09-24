@@ -1,15 +1,15 @@
-id: 6cc1e880-9306-4fb7-85fd-6e001a18b6a1
-name: RQ_001
+id: b31e9895-cb54-4808-8353-79e9962f8861
+name: RQ_002
 request:
   url:
-    raw: https://echo.postqode.io/post
+    raw: https://echo.postqode.io/get
     protocol: https
     host:
       - echo
       - postqode
       - io
     path:
-      - post
+      - get
   method: GET
   headers:
     - description: ''
