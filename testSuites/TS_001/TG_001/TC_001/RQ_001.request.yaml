@@ -10,7 +10,7 @@ request:
       - io
     path:
       - post
-  method: GET
+  method: POST
   headers:
     - description: ''
       disabled: false
