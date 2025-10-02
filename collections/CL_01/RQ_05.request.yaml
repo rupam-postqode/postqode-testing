@@ -1,0 +1,30 @@
+id: 642753f5-670d-46eb-909d-d1bd8e19b90c
+name: RQ_05
+request:
+  url:
+    raw: '{{baseUrl}}/delete'
+    host:
+      - '{{baseUrl}}'
+    path:
+      - delete
+  method: DELETE
+  headers:
+    - description: ''
+      disabled: false
+      key: Cache-Control
+      value: no-cache
+    - description: ''
+      disabled: false
+      key: Accept
+      value: '*/*'
+    - description: ''
+      disabled: false
+      key: Accept-Encoding
+      value: gzip, deflate
+    - description: ''
+      disabled: false
+      key: Connection
+      value: keep-alive
+  body:
+    mode: none
+events: []
