@@ -13,4 +13,8 @@ runConfigs:
     global: variables/postman.variable.yaml
     environment: variables/postqode.variable.yaml
 auth:
-  type: none
+  type: basic
+  basic:
+    username: basicsuiteauth
+    password: basicsuitepass
+events: []

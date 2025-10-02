@@ -17,3 +17,6 @@ testSteps:
   - fileReference: RQ_05.request.yaml
     type: request
 events: []
+auth:
+  type: inheritFromParent
+  inheritFromParent: true
