@@ -1,0 +1,16 @@
+description: ''
+id: e0c1257d-a951-4ba2-afc0-351675675a99
+name: TS_01
+disabled: false
+before: []
+beforeEach: []
+testGroup: []
+testCases: []
+afterEach: []
+after: []
+runConfigs:
+  - name: echo apis
+    global: variables/postman.variable.yaml
+    environment: variables/postqode.variable.yaml
+auth:
+  type: none
