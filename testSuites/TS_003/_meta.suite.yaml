@@ -1,0 +1,14 @@
+description: ''
+id: 7817026a-1309-4fb3-9aaf-b011af824f2c
+name: TS_003
+disabled: false
+before: []
+beforeEach: []
+testGroup: []
+testCases: []
+afterEach: []
+after: []
+runConfigs: []
+auth:
+  type: none
+events: []

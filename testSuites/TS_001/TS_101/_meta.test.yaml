@@ -1,0 +1,16 @@
+description: ''
+id: 1c1ef6c9-9ab6-4058-a6e4-5cde17fb567c
+name: TS_101
+dependencies: []
+type: TESTCASE
+testSuiteId: da00384c-2b63-402f-ab2c-c5f5a3a41e87
+parentId: da00384c-2b63-402f-ab2c-c5f5a3a41e87
+testSteps:
+  - fileReference: echo-get.request.yaml
+    type: request
+auth:
+  type: inheritFromParent
+  inheritFromParent:
+    inheritFromParent: true
+events: []
+headers: []

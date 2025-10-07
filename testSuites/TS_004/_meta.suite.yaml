@@ -1,0 +1,14 @@
+description: ''
+id: 53a9a630-b8a9-452c-8fb7-bda4c4192cf9
+name: TS_004
+disabled: false
+before: []
+beforeEach: []
+testGroup: []
+testCases: []
+afterEach: []
+after: []
+runConfigs: []
+auth:
+  type: none
+events: []
