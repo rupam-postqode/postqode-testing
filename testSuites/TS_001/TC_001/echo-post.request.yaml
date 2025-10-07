@@ -1,0 +1,37 @@
+id: 54621f15-2302-448f-8547-d2092506fe8d
+name: echo-post
+request:
+  url:
+    raw: https://echo.postqode.io/post
+    protocol: https
+    host:
+      - echo
+      - postqode
+      - io
+    path:
+      - post
+  method: POST
+  headers:
+    - description: ''
+      disabled: false
+      key: Cache-Control
+      value: no-cache
+    - description: ''
+      disabled: false
+      key: Accept
+      value: '*/*'
+    - description: ''
+      disabled: false
+      key: Accept-Encoding
+      value: gzip, deflate
+    - description: ''
+      disabled: false
+      key: Connection
+      value: keep-alive
+  body:
+    mode: none
+  auth:
+    type: inheritFromParent
+    inheritFromParent: true
+events: []
+type: request

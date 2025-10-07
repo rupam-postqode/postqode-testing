@@ -1,0 +1,66 @@
+code: 200
+headers:
+  _items:
+    - key: Date
+      value: Tue, 07 Oct 2025 10:18:35 GMT
+    - key: Content-Type
+      value: application/json
+    - key: Transfer-Encoding
+      value: chunked
+    - key: Connection
+      value: keep-alive
+    - key: Server
+      value: cloudflare
+    - key: Nel
+      value: '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+    - key: Access-Control-Allow-Origin
+      value: '*'
+    - key: Access-Control-Allow-Credentials
+      value: 'true'
+    - key: Permissions-Policy
+      value: interest-cohort=()
+    - key: Strict-Transport-Security
+      value: max-age=31536000; includeSubDomains; preload
+    - key: X-Frame-Options
+      value: SAMEORIGIN
+    - key: X-Content-Type-Options
+      value: nosniff
+    - key: X-Xss-Protection
+      value: 1; mode=block
+    - key: Content-Security-Policy
+      value: upgrade-insecure-requests
+    - key: Access-Control-Allow-Headers
+      value: >-
+        Authorization,
+        Origin,qarma-token,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,postqode-token
+    - key: Referrer-Policy
+      value: origin
+    - key: Cf-Cache-Status
+      value: DYNAMIC
+    - key: Report-To
+      value: >-
+        {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=3lLxzsO0Nmb%2Bvvy7q2ocBzjdyW39mt55DeA2mMejbUkyl4Oofx%2Bz%2FOqozfmdg%2FedLPOKSjuelxgWqEiL1p88I8g%2FdBP6wJhYpKfM8RTm"}]}
+    - key: Cf-Ray
+      value: 98aca7bb6c27ac0b-MRS
+    - key: Alt-Svc
+      value: h3=":443"; ma=86400
+cookies: []
+body: >-
+  {"args":{},"headers":{"Accept":"*/*","Accept-Encoding":"gzip,
+  br","Authorization":"Bearer
+  demo_suite_token","Cache-Control":"no-cache","Casekeyone":"CaseValueOne","Cdn-Loop":"cloudflare;
+  loops=1","Cf-Connecting-Ip":"223.185.129.110","Cf-Ipcountry":"IN","Cf-Ray":"98aca7bb6c27ac0b-MRS","Cf-Visitor":"{\"scheme\":\"https\"}","Connection":"close","Host":"echo.postqode.io","Suitekeyone":"SuiteValueOne","User-Agent":"PostQode/1.0"},"origin":"223.185.129.110,
+  162.158.22.204","url":"https://echo.postqode.io/get"}
+responseTime: 1714
+status: OK
+responseSize: 630
+assertions: []
+logs:
+  - message: suite pre-request
+    level: LOG
+  - message: case pre-request
+    level: LOG
+  - message: case tests
+    level: LOG
+  - message: suite tests
+    level: LOG

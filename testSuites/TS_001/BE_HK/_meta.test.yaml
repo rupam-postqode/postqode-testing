@@ -1,0 +1,15 @@
+description: ''
+id: 4f92139b-ecef-4b7f-bee9-1f60cc605611
+name: BE_HK
+type: BEFOREEACH
+testSuiteId: 4536117e-9689-4e3d-bbc2-729c80a33a09
+dependencies: []
+parentId: 4536117e-9689-4e3d-bbc2-729c80a33a09
+testSteps:
+  - fileReference: echo-post Copy 1.request.yaml
+    type: request
+auth:
+  type: inheritFromParent
+  inheritFromParent: true
+events: []
+headers: []

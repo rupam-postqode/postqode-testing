@@ -1,0 +1,15 @@
+description: ''
+id: 79862ca0-8208-466a-bf87-2a12bfc31507
+name: BA_HK
+type: BEFORE
+testSuiteId: 4536117e-9689-4e3d-bbc2-729c80a33a09
+dependencies: []
+parentId: 4536117e-9689-4e3d-bbc2-729c80a33a09
+testSteps:
+  - fileReference: echo-get Copy 1.request.yaml
+    type: request
+auth:
+  type: inheritFromParent
+  inheritFromParent: true
+events: []
+headers: []

@@ -1,0 +1,35 @@
+description: ''
+id: 36e627df-ab12-4cdd-84c9-eb91237a7b7b
+name: TC_001
+type: TESTCASE
+testSuiteId: 4536117e-9689-4e3d-bbc2-729c80a33a09
+dependencies: []
+parentId: 4536117e-9689-4e3d-bbc2-729c80a33a09
+testSteps:
+  - fileReference: echo-get.request.yaml
+    type: request
+  - fileReference: echo-delete.request.yaml
+    type: request
+  - fileReference: echo-post.request.yaml
+    type: request
+  - fileReference: echo-put.request.yaml
+    type: request
+auth:
+  type: inheritFromParent
+  inheritFromParent: true
+events:
+  - listen: prerequest
+    script:
+      type: javascript
+      exec:
+        - console.log("case pre-request")
+  - listen: test
+    script:
+      type: javascript
+      exec:
+        - console.log("case tests")
+headers:
+  - description: CaseDescOne
+    disabled: false
+    key: CaseKeyOne
+    value: CaseValueOne

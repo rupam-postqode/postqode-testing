@@ -1,0 +1,31 @@
+description: ''
+id: 4536117e-9689-4e3d-bbc2-729c80a33a09
+name: TS_001
+disabled: false
+before: []
+beforeEach: []
+testGroup: []
+testCases: []
+afterEach: []
+after: []
+runConfigs: []
+auth:
+  type: bearer
+  bearer:
+    token: demo_suite_token
+events:
+  - listen: prerequest
+    script:
+      type: javascript
+      exec:
+        - console.log("suite pre-request")
+  - listen: test
+    script:
+      type: javascript
+      exec:
+        - console.log("suite tests")
+headers:
+  - description: SuiteDescOne
+    disabled: false
+    key: SuiteKeyOne
+    value: SuiteValueOne
