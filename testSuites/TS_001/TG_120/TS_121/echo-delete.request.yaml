@@ -1,0 +1,37 @@
+id: b7a7f3a5-a0d5-453a-88c6-cd81c5fa6c83
+name: echo-delete
+request:
+  url:
+    raw: https://echo.postqode.io/delete
+    protocol: https
+    host:
+      - echo
+      - postqode
+      - io
+    path:
+      - delete
+  method: DELETE
+  headers:
+    - description: ''
+      disabled: false
+      key: Cache-Control
+      value: no-cache
+    - description: ''
+      disabled: false
+      key: Accept
+      value: '*/*'
+    - description: ''
+      disabled: false
+      key: Accept-Encoding
+      value: gzip, deflate
+    - description: ''
+      disabled: false
+      key: Connection
+      value: keep-alive
+  body:
+    mode: none
+  auth:
+    type: inheritFromParent
+    inheritFromParent: true
+events: []
+type: request
