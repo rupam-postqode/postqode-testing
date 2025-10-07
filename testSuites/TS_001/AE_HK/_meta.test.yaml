@@ -1,0 +1,16 @@
+description: ''
+id: bbb7d354-e787-411c-9d54-9cc6d16c61ce
+name: AE_HK
+dependencies: []
+type: AFTEREACH
+testSuiteId: da00384c-2b63-402f-ab2c-c5f5a3a41e87
+parentId: da00384c-2b63-402f-ab2c-c5f5a3a41e87
+testSteps:
+  - fileReference: echo-put.request.yaml
+    type: request
+auth:
+  type: inheritFromParent
+  inheritFromParent: true
+events: []
+headers:
+  _items: []

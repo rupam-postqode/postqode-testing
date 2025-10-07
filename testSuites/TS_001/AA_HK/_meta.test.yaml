@@ -1,0 +1,16 @@
+description: ''
+id: bef8f4cf-b044-439b-a797-a00318c257ea
+name: AA_HK
+dependencies: []
+type: AFTER
+testSuiteId: da00384c-2b63-402f-ab2c-c5f5a3a41e87
+parentId: da00384c-2b63-402f-ab2c-c5f5a3a41e87
+testSteps:
+  - fileReference: echo-delete.request.yaml
+    type: request
+auth:
+  type: inheritFromParent
+  inheritFromParent: true
+events: []
+headers:
+  _items: []

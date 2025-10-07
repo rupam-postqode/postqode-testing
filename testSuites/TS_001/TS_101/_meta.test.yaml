@@ -8,6 +8,12 @@ parentId: da00384c-2b63-402f-ab2c-c5f5a3a41e87
 testSteps:
   - fileReference: echo-get.request.yaml
     type: request
+  - fileReference: echo-delete.request.yaml
+    type: request
+  - fileReference: echo-post.request.yaml
+    type: request
+  - fileReference: echo-put.request.yaml
+    type: request
 auth:
   type: inheritFromParent
   inheritFromParent:
