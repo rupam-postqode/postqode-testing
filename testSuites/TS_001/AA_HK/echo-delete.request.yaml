@@ -1,16 +1,16 @@
-id: 743c98f8-5794-4d3f-bb3a-bbd5783acd75
-name: echo-get Copy 1
+id: b9a74a27-c8b7-4b97-ae95-3bf4e1e6c6db
+name: echo-delete
 request:
   url:
-    raw: https://echo.postqode.io/get
+    raw: https://echo.postqode.io/delete
     protocol: https
     host:
       - echo
       - postqode
       - io
     path:
-      - get
-  method: GET
+      - delete
+  method: DELETE
   headers:
     - description: ''
       disabled: false

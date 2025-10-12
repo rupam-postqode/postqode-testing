@@ -1,12 +1,12 @@
 description: ''
-id: 4f92139b-ecef-4b7f-bee9-1f60cc605611
+id: c7b26c8b-1ea5-42e4-ab1e-2485c4fc4f61
 name: BE_HK
 type: BEFOREEACH
-testSuiteId: 4536117e-9689-4e3d-bbc2-729c80a33a09
+testSuiteId: 4626be5e-60a2-4006-b33e-6e929b5c2bce
 dependencies: []
-parentId: 4536117e-9689-4e3d-bbc2-729c80a33a09
+parentId: 4626be5e-60a2-4006-b33e-6e929b5c2bce
 testSteps:
-  - fileReference: echo-post Copy 1.request.yaml
+  - fileReference: echo-put.request.yaml
     type: request
 auth:
   type: inheritFromParent

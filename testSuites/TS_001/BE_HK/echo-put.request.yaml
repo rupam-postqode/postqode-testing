@@ -1,16 +1,16 @@
-id: e03cbc86-442a-4ab7-a2a1-2841718f7b08
-name: echo-post
+id: f0bc69e7-e377-46b5-af89-6a8c2fef79a9
+name: echo-put
 request:
   url:
-    raw: https://echo.postqode.io/post
+    raw: https://echo.postqode.io/put
     protocol: https
     host:
       - echo
       - postqode
       - io
     path:
-      - post
-  method: POST
+      - put
+  method: PUT
   headers:
     - description: ''
       disabled: false

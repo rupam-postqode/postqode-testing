@@ -1,16 +1,16 @@
-id: b709070c-bf8d-4caf-bddb-d02a45ccf273
-name: echo-put
+id: ede00bd4-2012-4510-a429-a264c85efecf
+name: echo-get
 request:
   url:
-    raw: https://echo.postqode.io/put
+    raw: https://echo.postqode.io/get
     protocol: https
     host:
       - echo
       - postqode
       - io
     path:
-      - put
-  method: PUT
+      - get
+  method: GET
   headers:
     - description: ''
       disabled: false

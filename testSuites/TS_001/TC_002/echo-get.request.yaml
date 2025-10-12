@@ -1,16 +1,16 @@
-id: c3e26cf5-19ed-49d0-a1b2-97363ac9e200
-name: echo-post Copy 1
+id: c661d151-db9e-4186-a5c2-b188aeacb7d8
+name: echo-get
 request:
   url:
-    raw: https://echo.postqode.io/post
+    raw: https://echo.postqode.io/get
     protocol: https
     host:
       - echo
       - postqode
       - io
     path:
-      - post
-  method: POST
+      - get
+  method: GET
   headers:
     - description: ''
       disabled: false

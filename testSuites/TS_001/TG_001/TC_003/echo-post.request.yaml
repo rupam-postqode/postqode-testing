@@ -1,16 +1,16 @@
-id: a54e395c-7fd5-4162-82b0-bd964b6cbf04
-name: echo-delete Copy 1
+id: 6d9245e6-f24b-47bd-b4b7-3b37e59fb951
+name: echo-post
 request:
   url:
-    raw: https://echo.postqode.io/delete
+    raw: https://echo.postqode.io/post
     protocol: https
     host:
       - echo
       - postqode
       - io
     path:
-      - delete
-  method: DELETE
+      - post
+  method: POST
   headers:
     - description: ''
       disabled: false

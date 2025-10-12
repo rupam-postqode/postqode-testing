@@ -1,16 +1,16 @@
-id: 373f312d-a521-42ab-b6c9-a47963f8362f
-name: echo-delete
+id: a50f84b8-fcc6-4537-bebb-f54df152a65f
+name: echo-put
 request:
   url:
-    raw: https://echo.postqode.io/delete
+    raw: https://echo.postqode.io/put
     protocol: https
     host:
       - echo
       - postqode
       - io
     path:
-      - delete
-  method: DELETE
+      - put
+  method: PUT
   headers:
     - description: ''
       disabled: false

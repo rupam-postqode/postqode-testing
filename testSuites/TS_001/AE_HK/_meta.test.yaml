@@ -1,12 +1,12 @@
 description: ''
-id: a2863d63-714a-4cc1-aeaa-fd0dd4212a99
+id: 8aaa090b-a511-4a00-ba5a-4351fdf6f295
 name: AE_HK
 type: AFTEREACH
-testSuiteId: 4536117e-9689-4e3d-bbc2-729c80a33a09
+testSuiteId: 4626be5e-60a2-4006-b33e-6e929b5c2bce
 dependencies: []
-parentId: 4536117e-9689-4e3d-bbc2-729c80a33a09
+parentId: 4626be5e-60a2-4006-b33e-6e929b5c2bce
 testSteps:
-  - fileReference: echo-put Copy 1.request.yaml
+  - fileReference: echo-post.request.yaml
     type: request
 auth:
   type: inheritFromParent
