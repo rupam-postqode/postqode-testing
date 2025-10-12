@@ -4,4 +4,6 @@ name: TC-004
 dependencies:
   - 8cc9d3f6-73bf-4da8-8985-a2de8450b377
 type: TESTCASE
-testSteps: []
+testSteps:
+  - fileReference: echo-get Copy 1.request.yaml
+    type: request
