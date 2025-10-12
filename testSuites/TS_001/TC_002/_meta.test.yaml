@@ -1,10 +1,9 @@
 description: ''
 id: 3767044d-ec2a-469b-8b88-bf1bbba12fea
 name: TC_002
+dependencies:
+  - 46dfa3c3-1609-4d72-aecb-af26f0642522
 type: TESTCASE
-testSuiteId: 4626be5e-60a2-4006-b33e-6e929b5c2bce
-dependencies: []
-parentId: 4626be5e-60a2-4006-b33e-6e929b5c2bce
 testSteps:
   - fileReference: echo-get.request.yaml
     type: request
@@ -14,12 +13,3 @@ testSteps:
     type: request
   - fileReference: echo-put.request.yaml
     type: request
-auth:
-  type: inheritFromParent
-  inheritFromParent: true
-events: []
-headers:
-  - description: casedescone
-    disabled: false
-    key: casekeyone
-    value: casevalueone

@@ -1,0 +1,10 @@
+description: ''
+id: 420c6f43-46fc-4d61-8325-68bbba5f2dc9
+name: TC_005
+dependencies: []
+type: TESTCASE
+testSuiteId: 4626be5e-60a2-4006-b33e-6e929b5c2bce
+parentId: 4626be5e-60a2-4006-b33e-6e929b5c2bce
+testSteps:
+  - fileReference: echo-post Copy 1.request.yaml
+    type: request

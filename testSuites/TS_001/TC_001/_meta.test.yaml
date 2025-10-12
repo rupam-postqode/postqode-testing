@@ -1,7 +1,8 @@
-description: ij
+description: ''
 id: 8cc9d3f6-73bf-4da8-8985-a2de8450b377
 name: TC_001
-dependencies: []
+dependencies:
+  - 46dfa3c3-1609-4d72-aecb-af26f0642522
 type: TESTCASE
 testSteps:
   - fileReference: echo-get.request.yaml
