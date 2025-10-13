@@ -4,6 +4,7 @@ name: TC_002
 dependencies:
   - 46dfa3c3-1609-4d72-aecb-af26f0642522
 type: TESTCASE
+parentId: 0109d42d-8584-425a-b1bc-47eb980886a8
 testSteps:
   - fileReference: echo-get.request.yaml
     type: request
