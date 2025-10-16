@@ -1,10 +1,9 @@
 description: ''
 id: 46dfa3c3-1609-4d72-aecb-af26f0642522
-name: TC-004
-disabled: false
+name: TC_004
 dependencies: []
 type: TESTCASE
-parentId: 4626be5e-60a2-4006-b33e-6e929b5c2bce
+disabled: false
 testSteps:
   - fileReference: echo-get Copy 1.request.yaml
     type: request
