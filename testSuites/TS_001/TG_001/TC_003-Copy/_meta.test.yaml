@@ -1,0 +1,10 @@
+description: ''
+id: ab7fa789-6617-4d69-802e-dd1011ac3562
+name: TC_003-Copy
+dependencies: []
+type: TESTCASE
+testSuiteId: 4626be5e-60a2-4006-b33e-6e929b5c2bce
+parentId: 0109d42d-8584-425a-b1bc-47eb980886a8
+testSteps:
+  - fileReference: echo-get Copy 1.request.yaml
+    type: request

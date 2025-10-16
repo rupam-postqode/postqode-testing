@@ -1,0 +1,36 @@
+id: 63ecf6ce-3028-4386-ac9d-bd3cad5bbc32
+name: echo-put
+request:
+  url:
+    raw: https://echo.postqode.io/put
+    protocol: https
+    host:
+      - echo
+      - postqode
+      - io
+    path:
+      - put
+  method: PUT
+  headers:
+    - description: ''
+      disabled: false
+      key: Cache-Control
+      value: no-cache
+    - description: ''
+      disabled: false
+      key: Accept
+      value: '*/*'
+    - description: ''
+      disabled: false
+      key: Accept-Encoding
+      value: gzip, deflate
+    - description: ''
+      disabled: false
+      key: Connection
+      value: keep-alive
+  body:
+    mode: none
+  auth:
+    type: inheritFromParent
+events: []
+type: request

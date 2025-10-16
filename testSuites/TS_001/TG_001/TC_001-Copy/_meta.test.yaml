@@ -1,0 +1,15 @@
+description: ''
+id: a4bf7e78-dee3-462d-ad5b-946d6d06c1ea
+name: TC_001-Copy
+dependencies:
+  - 3cd1efcd-aed9-4a0e-a1bd-b376e339d1c9
+type: TESTCASE
+testSteps:
+  - fileReference: echo-get.request.yaml
+    type: request
+  - fileReference: echo-delete.request.yaml
+    type: request
+  - fileReference: echo-post.request.yaml
+    type: request
+  - fileReference: echo-put.request.yaml
+    type: request
