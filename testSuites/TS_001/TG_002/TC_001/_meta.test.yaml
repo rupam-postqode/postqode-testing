@@ -3,7 +3,7 @@ id: 8cc9d3f6-73bf-4da8-8985-a2de8450b377
 name: TC_001
 dependencies: []
 type: TESTCASE
-parentId: 4626be5e-60a2-4006-b33e-6e929b5c2bce
+parentId: 486dce37-2a8e-4548-87e1-a1a951f96ed5
 testSteps:
   - fileReference: echo-get.request.yaml
     type: request
