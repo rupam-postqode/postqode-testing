@@ -1,10 +1,9 @@
 description: ''
 id: 117732cd-92bc-42f5-aaf1-5aa88d714c59
 name: TC_003
-dependencies: []
+dependencies:
+  - 3fbedad9-9e09-4c54-a1a3-9231dc56be67
 type: TESTCASE
-testSuiteId: 4626be5e-60a2-4006-b33e-6e929b5c2bce
-parentId: 4626be5e-60a2-4006-b33e-6e929b5c2bce
 testSteps:
   - fileReference: echo-get Copy 1.request.yaml
     type: request

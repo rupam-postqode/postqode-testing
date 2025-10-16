@@ -1,4 +1,4 @@
-id: 21007ce0-cae4-4302-b968-75e5ccd72557
+id: e8d44f63-ccf3-40f3-b09b-71d72130c972
 name: echo-get
 request:
   url:
@@ -12,6 +12,10 @@ request:
       - get
   method: GET
   headers:
+    - description: ''
+      disabled: false
+      key: Cache-Control
+      value: no-cache
     - description: ''
       disabled: false
       key: Accept
@@ -28,6 +32,5 @@ request:
     mode: none
   auth:
     type: inheritFromParent
-    inheritFromParent: true
 events: []
 type: request

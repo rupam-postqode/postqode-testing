@@ -1,7 +1,8 @@
 description: ''
-id: 8cc9d3f6-73bf-4da8-8985-a2de8450b377
-name: TC_001
-dependencies: []
+id: 3767044d-ec2a-469b-8b88-bf1bbba12fea
+name: TC_002
+dependencies:
+  - 117732cd-92bc-42f5-aaf1-5aa88d714c59
 type: TESTCASE
 parentId: 4626be5e-60a2-4006-b33e-6e929b5c2bce
 testSteps:
@@ -13,4 +14,3 @@ testSteps:
     type: request
   - fileReference: echo-put.request.yaml
     type: request
-dataset: data/dataset 3.json

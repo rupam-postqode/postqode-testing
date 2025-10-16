@@ -1,8 +1,7 @@
 description: ''
-id: 3767044d-ec2a-469b-8b88-bf1bbba12fea
-name: TC_002
-dependencies:
-  - 46dfa3c3-1609-4d72-aecb-af26f0642522
+id: 9b7b3986-2957-4f4e-8e6d-27d01d7f704d
+name: TC_003-Copy
+dependencies: []
 type: TESTCASE
 parentId: 0109d42d-8584-425a-b1bc-47eb980886a8
 testSteps:

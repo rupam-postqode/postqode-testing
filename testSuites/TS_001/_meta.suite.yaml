@@ -15,7 +15,11 @@ auth:
     token: demo_suite_token
 events: []
 headers:
-  - description: SuiteOneDesc
+  - description: suiteDescOne
     disabled: false
-    key: SuiteOneKey
-    value: SuiteValueOne
+    key: suiteKeyOne
+    value: suiteValueOne
+  - description: suiteDeskTwo
+    disabled: false
+    key: suiteKeyTwo
+    value: suiteValueTwo

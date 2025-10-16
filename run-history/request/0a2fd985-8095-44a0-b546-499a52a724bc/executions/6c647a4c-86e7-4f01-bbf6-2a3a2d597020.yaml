@@ -1,0 +1,57 @@
+code: 200
+headers:
+  _items:
+    - key: Date
+      value: Wed, 15 Oct 2025 11:46:57 GMT
+    - key: Content-Type
+      value: application/json
+    - key: Transfer-Encoding
+      value: chunked
+    - key: Connection
+      value: keep-alive
+    - key: Server
+      value: cloudflare
+    - key: Nel
+      value: '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+    - key: Access-Control-Allow-Origin
+      value: '*'
+    - key: Access-Control-Allow-Credentials
+      value: 'true'
+    - key: Permissions-Policy
+      value: interest-cohort=()
+    - key: Strict-Transport-Security
+      value: max-age=31536000; includeSubDomains; preload
+    - key: X-Frame-Options
+      value: SAMEORIGIN
+    - key: X-Content-Type-Options
+      value: nosniff
+    - key: X-Xss-Protection
+      value: 1; mode=block
+    - key: Content-Security-Policy
+      value: upgrade-insecure-requests
+    - key: Access-Control-Allow-Headers
+      value: >-
+        Authorization,
+        Origin,qarma-token,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,postqode-token
+    - key: Referrer-Policy
+      value: origin
+    - key: Cf-Cache-Status
+      value: DYNAMIC
+    - key: Report-To
+      value: >-
+        {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=p3uukabzBDPdiQ%2BltAgow%2BAkR8HvmaXjdPY0inLe2RVYQpnbHNOIyyzlXCet27KqXGzi1coT45wS8PXDj%2BFpoyEs61Uhd%2FShBRcdpYYfitw%3D"}]}
+    - key: Cf-Ray
+      value: 98ef142c2f131f90-MRS
+    - key: Alt-Svc
+      value: h3=":443"; ma=86400
+cookies: []
+body: >-
+  {"args":{},"headers":{"Accept":"*/*","Accept-Encoding":"gzip,
+  br","Cache-Control":"no-cache","Cdn-Loop":"cloudflare;
+  loops=1","Cf-Connecting-Ip":"223.185.133.60","Cf-Ipcountry":"IN","Cf-Ray":"98ef142c2f131f90-MRS","Cf-Visitor":"{\"scheme\":\"https\"}","Connection":"close","Host":"echo.postqode.io","User-Agent":"PostQode/1.0"},"origin":"223.185.133.60,
+  172.68.234.162","url":"https://echo.postqode.io/get"}
+responseTime: 1595
+status: OK
+responseSize: 507
+assertions: []
+logs: []

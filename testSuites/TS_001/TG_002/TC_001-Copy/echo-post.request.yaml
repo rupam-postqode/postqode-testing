@@ -1,17 +1,21 @@
-id: 21007ce0-cae4-4302-b968-75e5ccd72557
-name: echo-get
+id: 640cab52-ccca-4860-82a5-2d98c1594f3e
+name: echo-post
 request:
   url:
-    raw: https://echo.postqode.io/get
+    raw: https://echo.postqode.io/post
     protocol: https
     host:
       - echo
       - postqode
       - io
     path:
-      - get
-  method: GET
+      - post
+  method: POST
   headers:
+    - description: ''
+      disabled: false
+      key: Cache-Control
+      value: no-cache
     - description: ''
       disabled: false
       key: Accept
@@ -28,6 +32,5 @@ request:
     mode: none
   auth:
     type: inheritFromParent
-    inheritFromParent: true
 events: []
 type: request
