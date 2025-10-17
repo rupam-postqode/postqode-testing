@@ -1,0 +1,36 @@
+id: 26b31b43-971f-4888-8915-5fbebccc929e
+name: echo-post Copy 1
+request:
+  url:
+    raw: https://echo.postqode.io/post
+    protocol: https
+    host:
+      - echo
+      - postqode
+      - io
+    path:
+      - post
+  method: POST
+  headers:
+    - description: ''
+      disabled: false
+      key: Cache-Control
+      value: no-cache
+    - description: ''
+      disabled: false
+      key: Accept
+      value: '*/*'
+    - description: ''
+      disabled: false
+      key: Accept-Encoding
+      value: gzip, deflate
+    - description: ''
+      disabled: false
+      key: Connection
+      value: keep-alive
+  body:
+    mode: none
+  auth:
+    type: inheritFromParent
+events: []
+type: request
