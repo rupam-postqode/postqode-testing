@@ -1,7 +1,8 @@
 description: ''
 id: bc714ffa-ec84-4bf2-a762-7080c3636177
 name: TC_002
-dependencies: []
+dependencies:
+  - 8243872e-4f3c-4807-a59f-dc8cb3592cc7
 type: TESTCASE
 testSuiteId: 7d2d345f-5604-4706-88a5-c5446e0c5150
 parentId: 7d2d345f-5604-4706-88a5-c5446e0c5150
