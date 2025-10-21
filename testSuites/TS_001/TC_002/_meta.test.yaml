@@ -1,4 +1,4 @@
-description: ''
+description: description
 id: bc714ffa-ec84-4bf2-a762-7080c3636177
 name: TC_002
 dependencies:
@@ -15,3 +15,4 @@ testSteps:
     type: request
   - fileReference: echo-put-002.request.yaml
     type: request
+events: []

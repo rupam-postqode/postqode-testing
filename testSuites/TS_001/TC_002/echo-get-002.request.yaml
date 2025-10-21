@@ -30,5 +30,8 @@ request:
       value: keep-alive
   body:
     mode: none
+  auth:
+    type: inheritFromParent
+    inheritFromParent: true
 events: []
 type: request
