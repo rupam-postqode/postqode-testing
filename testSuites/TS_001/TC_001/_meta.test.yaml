@@ -34,3 +34,6 @@ headers:
     disabled: false
     key: case-key-two
     value: case-value-two
+auth:
+  type: inheritFromParent
+  inheritFromParent: true
