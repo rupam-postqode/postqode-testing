@@ -1,0 +1,16 @@
+description: ''
+id: 16f84a0f-f621-4085-9d5b-dc3bd2d7b56b
+name: TC_005
+dependencies: []
+type: TESTCASE
+testSuiteId: 7d2d345f-5604-4706-88a5-c5446e0c5150
+parentId: 7d2d345f-5604-4706-88a5-c5446e0c5150
+testSteps:
+  - fileReference: echo-delete-005.request.yaml
+    type: request
+  - fileReference: echo-get-005.request.yaml
+    type: request
+  - fileReference: echo-post-005.request.yaml
+    type: request
+  - fileReference: echo-put-005.request.yaml
+    type: request
