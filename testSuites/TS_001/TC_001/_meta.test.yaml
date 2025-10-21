@@ -1,7 +1,8 @@
 description: ''
 id: b97c3073-0fa6-478a-987b-3074778c2fbd
 name: TC_001
-dependencies: []
+dependencies:
+  - 01f1af17-a0c3-410e-8c4e-8461bc10dbe0
 type: TESTCASE
 testSteps:
   - fileReference: echo-delete-001.request.yaml
