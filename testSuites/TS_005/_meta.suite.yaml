@@ -1,0 +1,13 @@
+description: ''
+id: a0fd69a9-8717-4fab-9e99-4a6d25660161
+name: TS_005
+disabled: false
+before: []
+beforeEach: []
+testGroup: []
+testCases: []
+afterEach: []
+after: []
+runConfigs: []
+auth:
+  type: none

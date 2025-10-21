@@ -1,0 +1,34 @@
+id: 140b24eb-b631-41ea-b72b-ffee470d427c
+name: echo-put-002
+request:
+  url:
+    raw: https://echo.postqode.io/put
+    protocol: https
+    host:
+      - echo
+      - postqode
+      - io
+    path:
+      - put
+  method: PUT
+  headers:
+    - description: ''
+      disabled: false
+      key: Cache-Control
+      value: no-cache
+    - description: ''
+      disabled: false
+      key: Accept
+      value: '*/*'
+    - description: ''
+      disabled: false
+      key: Accept-Encoding
+      value: gzip, deflate
+    - description: ''
+      disabled: false
+      key: Connection
+      value: keep-alive
+  body:
+    mode: none
+events: []
+type: request

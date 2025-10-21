@@ -1,0 +1,33 @@
+id: 8f01ff3e-3a4b-45b4-8828-3a96ec8b2081
+name: echo-delete
+request:
+  url:
+    raw: https://echo.postqode.io/delete
+    protocol: https
+    host:
+      - echo
+      - postqode
+      - io
+    path:
+      - delete
+  method: DELETE
+  headers:
+    - description: ''
+      disabled: false
+      key: Cache-Control
+      value: no-cache
+    - description: ''
+      disabled: false
+      key: Accept
+      value: '*/*'
+    - description: ''
+      disabled: false
+      key: Accept-Encoding
+      value: gzip, deflate
+    - description: ''
+      disabled: false
+      key: Connection
+      value: keep-alive
+  body:
+    mode: none
+events: []

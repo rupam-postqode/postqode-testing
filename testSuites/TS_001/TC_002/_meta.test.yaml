@@ -1,0 +1,16 @@
+description: ''
+id: bc714ffa-ec84-4bf2-a762-7080c3636177
+name: TC_002
+dependencies: []
+type: TESTCASE
+testSuiteId: 7d2d345f-5604-4706-88a5-c5446e0c5150
+parentId: 7d2d345f-5604-4706-88a5-c5446e0c5150
+testSteps:
+  - fileReference: echo-delete-002.request.yaml
+    type: request
+  - fileReference: echo-get-002.request.yaml
+    type: request
+  - fileReference: echo-post-002.request.yaml
+    type: request
+  - fileReference: echo-put-002.request.yaml
+    type: request

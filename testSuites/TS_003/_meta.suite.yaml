@@ -1,0 +1,13 @@
+description: ''
+id: e6641403-e56c-4629-90cc-a9fa24c2ca11
+name: TS_003
+disabled: false
+before: []
+beforeEach: []
+testGroup: []
+testCases: []
+afterEach: []
+after: []
+runConfigs: []
+auth:
+  type: none

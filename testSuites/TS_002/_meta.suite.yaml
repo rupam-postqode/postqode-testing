@@ -1,0 +1,13 @@
+description: ''
+id: abc68a01-d9f9-41b6-a37e-746c2435c0d9
+name: TS_002
+disabled: false
+before: []
+beforeEach: []
+testGroup: []
+testCases: []
+afterEach: []
+after: []
+runConfigs: []
+auth:
+  type: none
