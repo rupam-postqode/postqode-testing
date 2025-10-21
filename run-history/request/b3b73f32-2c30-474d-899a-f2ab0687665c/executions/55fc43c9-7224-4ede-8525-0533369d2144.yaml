@@ -1,0 +1,69 @@
+code: 200
+headers:
+  _items:
+    - key: Date
+      value: Tue, 21 Oct 2025 09:17:47 GMT
+    - key: Content-Type
+      value: application/json
+    - key: Transfer-Encoding
+      value: chunked
+    - key: Connection
+      value: keep-alive
+    - key: Server
+      value: cloudflare
+    - key: Nel
+      value: '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+    - key: Access-Control-Allow-Origin
+      value: '*'
+    - key: Access-Control-Allow-Credentials
+      value: 'true'
+    - key: Permissions-Policy
+      value: interest-cohort=()
+    - key: Strict-Transport-Security
+      value: max-age=31536000; includeSubDomains; preload
+    - key: X-Frame-Options
+      value: SAMEORIGIN
+    - key: X-Content-Type-Options
+      value: nosniff
+    - key: X-Xss-Protection
+      value: 1; mode=block
+    - key: Content-Security-Policy
+      value: upgrade-insecure-requests
+    - key: Access-Control-Allow-Headers
+      value: >-
+        Authorization,
+        Origin,qarma-token,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,postqode-token
+    - key: Referrer-Policy
+      value: origin
+    - key: Cf-Cache-Status
+      value: DYNAMIC
+    - key: Report-To
+      value: >-
+        {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=zyGE43rZ95mKiFYTFnFT7YHe%2BKa0s%2FhyVZDzI7euyrBF93WNjGXUftvVKeYQQUBius%2BS6%2B5RlB8Dhe904kTceGVQdFzEIIi3Q%2FRSnbil"}]}
+    - key: Cf-Ray
+      value: 991fa9f20fd411a2-MRS
+    - key: Alt-Svc
+      value: h3=":443"; ma=86400
+cookies: []
+body: >-
+  {"args":{},"headers":{"Accept":"*/*","Accept-Encoding":"gzip,
+  br","Cache-Control":"no-cache","Case-Key-One":"case-value-one","Case-Key-Two":"case-value-two","Cdn-Loop":"cloudflare;
+  loops=1","Cf-Connecting-Ip":"223.185.131.155","Cf-Ipcountry":"IN","Cf-Ray":"991fa9f20fd411a2-MRS","Cf-Visitor":"{\"scheme\":\"https\"}","Connection":"close","Host":"echo.postqode.io","Req-Key-One":"req-value-one","Req-Key-Three":"req-value-three","Req-Key-Two":"req-value-two","Suite-Key-One":"suite-value-one","Suite-Key-Two":"suite-value-two","User-Agent":"PostQode/1.0"},"origin":"223.185.131.155,
+  162.158.22.89","url":"https://echo.postqode.io/get"}
+responseTime: 715
+status: OK
+responseSize: 783
+assertions: []
+logs:
+  - message: suite pre request
+    level: LOG
+  - message: case pre request
+    level: LOG
+  - message: request pre-request
+    level: LOG
+  - message: requestt tests
+    level: LOG
+  - message: tests
+    level: LOG
+  - message: suite tests
+    level: LOG

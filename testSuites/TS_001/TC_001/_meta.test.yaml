@@ -24,7 +24,7 @@ events:
     script:
       type: javascript
       exec:
-        - console.log("tests")
+        - console.log("case tests")
 headers:
   - description: case-desc-one
     disabled: false
