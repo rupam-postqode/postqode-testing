@@ -1,0 +1,10 @@
+description: ''
+id: f4dcc8aa-14c3-4af5-954b-9ed14f5df8a9
+name: BA_HK
+dependencies: []
+type: BEFORE
+testSuiteId: 7d2d345f-5604-4706-88a5-c5446e0c5150
+parentId: 7d2d345f-5604-4706-88a5-c5446e0c5150
+testSteps:
+  - fileReference: echo-before-all.request.yaml
+    type: request

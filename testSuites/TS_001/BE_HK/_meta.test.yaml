@@ -1,0 +1,10 @@
+description: ''
+id: 1eaa8b0f-6f26-43ac-a523-b298a2471ad3
+name: BE_HK
+dependencies: []
+type: BEFOREEACH
+testSuiteId: 7d2d345f-5604-4706-88a5-c5446e0c5150
+parentId: 7d2d345f-5604-4706-88a5-c5446e0c5150
+testSteps:
+  - fileReference: echo-before-each.request.yaml
+    type: request

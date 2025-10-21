@@ -1,0 +1,10 @@
+description: ''
+id: 8086170b-6798-4b94-96aa-cdf51901df3e
+name: AA_HK
+dependencies: []
+type: AFTER
+testSuiteId: 7d2d345f-5604-4706-88a5-c5446e0c5150
+parentId: 7d2d345f-5604-4706-88a5-c5446e0c5150
+testSteps:
+  - fileReference: echo-after-all.request.yaml
+    type: request

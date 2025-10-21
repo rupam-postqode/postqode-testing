@@ -1,0 +1,10 @@
+description: ''
+id: e25635f6-c6c0-448c-b556-04c849fe3ec1
+name: AE_HK
+dependencies: []
+type: AFTEREACH
+testSuiteId: 7d2d345f-5604-4706-88a5-c5446e0c5150
+parentId: 7d2d345f-5604-4706-88a5-c5446e0c5150
+testSteps:
+  - fileReference: echo-after-each.request.yaml
+    type: request
