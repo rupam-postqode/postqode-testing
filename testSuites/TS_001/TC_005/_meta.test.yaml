@@ -1,7 +1,8 @@
 description: ''
 id: d243e5e8-3f96-4134-a25c-42f3b17d9a3d
 name: TC_005
-dependencies: []
+dependencies:
+  - 1be0bf31-91bc-45e9-b59c-3105d921fe48
 type: TESTCASE
 testSuiteId: 7d2d345f-5604-4706-88a5-c5446e0c5150
 parentId: 7d2d345f-5604-4706-88a5-c5446e0c5150
