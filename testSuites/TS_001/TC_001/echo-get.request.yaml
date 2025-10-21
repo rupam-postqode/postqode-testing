@@ -28,7 +28,18 @@ request:
       disabled: false
       key: Connection
       value: keep-alive
+    - description: req-desc-one
+      disabled: false
+      key: req-key-one
+      value: req-value-one
+    - description: req-desc-two
+      disabled: false
+      key: req-key-two
+      value: req-value-two
   body:
     mode: none
+  auth:
+    type: inheritFromParent
+    inheritFromParent: true
 events: []
 type: request

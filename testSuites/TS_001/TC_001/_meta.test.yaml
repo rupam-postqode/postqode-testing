@@ -14,3 +14,23 @@ testSteps:
     type: request
   - fileReference: echo-get.request.yaml
     type: request
+events:
+  - listen: prerequest
+    script:
+      type: javascript
+      exec:
+        - console.log("case pre request")
+  - listen: test
+    script:
+      type: javascript
+      exec:
+        - console.log("tests")
+headers:
+  - description: case-desc-one
+    disabled: false
+    key: case-key-one
+    value: case-value-one
+  - description: case-desc-two
+    disabled: false
+    key: case-key-two
+    value: case-value-two

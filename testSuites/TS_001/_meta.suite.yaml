@@ -10,4 +10,26 @@ afterEach: []
 after: []
 runConfigs: []
 auth:
-  type: none
+  type: bearer
+  bearer:
+    token: demo-test-case-token
+events:
+  - listen: prerequest
+    script:
+      type: javascript
+      exec:
+        - console.log("suite pre request")
+  - listen: test
+    script:
+      type: javascript
+      exec:
+        - console.log("suite tests")
+headers:
+  - description: suite-desc-one
+    disabled: false
+    key: suite-key-one
+    value: suite-value-one
+  - description: suite-desc-two
+    disabled: false
+    key: suite-key-two
+    value: suite-value-two
