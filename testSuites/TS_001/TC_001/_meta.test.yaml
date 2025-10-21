@@ -12,3 +12,5 @@ testSteps:
     type: request
   - fileReference: echo-put-001.request.yaml
     type: request
+  - fileReference: echo-get.request.yaml
+    type: request
