@@ -42,9 +42,6 @@ request:
       value: req-value-three
   body:
     mode: none
-  auth:
-    type: inheritFromParent
-    inheritFromParent: true
 events:
   - listen: prerequest
     script:
