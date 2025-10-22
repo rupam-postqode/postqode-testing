@@ -16,3 +16,5 @@ testSteps:
   - fileReference: echo-put-002.request.yaml
     type: request
 events: []
+auth:
+  type: inheritFromParent
