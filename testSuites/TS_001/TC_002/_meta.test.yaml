@@ -16,3 +16,8 @@ testSteps:
   - fileReference: echo-put-002.request.yaml
     type: request
 events: []
+auth:
+  type: digest
+  digest:
+    username: dd
+    password: ddd

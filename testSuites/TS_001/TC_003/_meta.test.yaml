@@ -14,3 +14,12 @@ testSteps:
     type: request
   - fileReference: echo-put-003.request.yaml
     type: request
+auth:
+  type: inheritFromParent
+  inheritFromParent: true
+events: []
+headers:
+  - description: one
+    disabled: false
+    key: one
+    value: one
