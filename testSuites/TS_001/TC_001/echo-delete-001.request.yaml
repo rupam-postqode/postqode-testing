@@ -17,7 +17,7 @@ request:
       key: Cache-Control
       value: no-cache
     - description: ''
-      disabled: false
+      disabled: true
       key: Accept
       value: '*/*'
     - description: ''
@@ -30,5 +30,8 @@ request:
       value: keep-alive
   body:
     mode: none
+  auth:
+    type: inheritFromParent
+    inheritFromParent: true
 events: []
 type: request
