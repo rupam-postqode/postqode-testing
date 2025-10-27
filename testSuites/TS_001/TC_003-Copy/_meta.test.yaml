@@ -1,0 +1,16 @@
+description: ''
+id: ec255f05-b305-4275-b3db-25c69d0ae964
+name: TC_003-Copy
+dependencies: []
+type: TESTCASE
+testSuiteId: 7d2d345f-5604-4706-88a5-c5446e0c5150
+parentId: 7d2d345f-5604-4706-88a5-c5446e0c5150
+testSteps:
+  - fileReference: echo-delete-003.request.yaml
+    type: request
+  - fileReference: echo-get-003.request.yaml
+    type: request
+  - fileReference: echo-post-003.request.yaml
+    type: request
+  - fileReference: echo-put-003.request.yaml
+    type: request
