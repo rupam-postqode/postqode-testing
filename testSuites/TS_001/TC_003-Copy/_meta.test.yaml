@@ -1,7 +1,8 @@
 description: ''
 id: b6a1ce8f-a18b-49f1-a8ca-4dea0027da9a
 name: TC_003-Copy
-dependencies: []
+dependencies:
+  - 30fc6342-f2dc-4eee-810b-9fd01c28a376
 type: TESTCASE
 testSuiteId: 7d2d345f-5604-4706-88a5-c5446e0c5150
 parentId: 7d2d345f-5604-4706-88a5-c5446e0c5150
