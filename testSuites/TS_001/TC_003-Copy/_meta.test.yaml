@@ -1,7 +1,6 @@
 description: ''
-id: 234a066a-0929-47a2-9bf1-3111d64b5a25
-name: TC_003
-disabled: false
+id: 73c9889b-e1f9-4e25-98de-e1945434c943
+name: TC_003-Copy
 dependencies: []
 type: TESTCASE
 testSuiteId: 7d2d345f-5604-4706-88a5-c5446e0c5150
@@ -15,13 +14,3 @@ testSteps:
     type: request
   - fileReference: echo-put-003.request.yaml
     type: request
-auth:
-  type: inheritFromParent
-  inheritFromParent: true
-events: []
-headers:
-  _items:
-    - description: one
-      disabled: false
-      key: one
-      value: one
