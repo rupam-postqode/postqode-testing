@@ -1,9 +1,7 @@
 description: ''
 id: 6faa786e-9dc1-4f4b-bfba-a5f37358cec0
 name: TC_001
-dependencies:
-  - bc714ffa-ec84-4bf2-a762-7080c3636177
-  - 8243872e-4f3c-4807-a59f-dc8cb3592cc7
+dependencies: []
 type: TESTCASE
 testSuiteId: 7d2d345f-5604-4706-88a5-c5446e0c5150
 parentId: 7d2d345f-5604-4706-88a5-c5446e0c5150
@@ -16,3 +14,7 @@ testSteps:
     type: request
   - fileReference: echo-get.request.yaml
     type: request
+auth:
+  type: inheritFromParent
+  inheritFromParent: true
+events: []
