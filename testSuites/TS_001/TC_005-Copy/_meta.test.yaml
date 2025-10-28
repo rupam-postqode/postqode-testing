@@ -1,0 +1,21 @@
+description: ''
+id: 8f90f565-90b8-49f2-8f64-9f34d02915d6
+name: TC_005-Copy
+type: TESTCASE
+testSuiteId: 7d2d345f-5604-4706-88a5-c5446e0c5150
+dependencies: []
+parentId: 7d2d345f-5604-4706-88a5-c5446e0c5150
+testSteps:
+  - fileReference: echo-delete-005.request.yaml
+    type: request
+  - fileReference: echo-get-005.request.yaml
+    type: request
+  - fileReference: echo-post-005.request.yaml
+    type: request
+  - fileReference: echo-put-005.request.yaml
+    type: request
+auth:
+  type: inheritFromParent
+  inheritFromParent: true
+events: []
+headers: []
