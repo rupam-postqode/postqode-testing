@@ -1,0 +1,41 @@
+id: df21dded-2e5b-460d-9686-03e0db3a4d2c
+name: echo-get Copy 1
+request:
+  url:
+    raw: https://echo.postqode.io/get
+    protocol: https
+    host:
+      - echo
+      - postqode
+      - io
+    path:
+      - get
+  method: GET
+  headers:
+    - description: ''
+      disabled: false
+      key: Cache-Control
+      value: no-cache
+    - description: ''
+      disabled: false
+      key: Accept
+      value: '*/*'
+    - description: ''
+      disabled: false
+      key: Accept-Encoding
+      value: gzip, deflate
+    - description: ''
+      disabled: false
+      key: Connection
+      value: keep-alive
+    - description: One
+      disabled: false
+      key: One
+      value: One
+  body:
+    mode: none
+  auth:
+    type: inheritFromParent
+    inheritFromParent: true
+events: []
+type: request

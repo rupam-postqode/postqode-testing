@@ -1,0 +1,21 @@
+description: description
+id: b1768b3c-256b-4721-bf09-5e29c8b30053
+name: TC_002-Copy
+type: TESTCASE
+testSuiteId: 7d2d345f-5604-4706-88a5-c5446e0c5150
+dependencies: []
+parentId: 7d2d345f-5604-4706-88a5-c5446e0c5150
+testSteps:
+  - fileReference: echo-delete-002.request.yaml
+    type: request
+  - fileReference: echo-get-002.request.yaml
+    type: request
+  - fileReference: echo-post-002.request.yaml
+    type: request
+  - fileReference: echo-put-002.request.yaml
+    type: request
+auth:
+  type: inheritFromParent
+  inheritFromParent: true
+events: []
+headers: []

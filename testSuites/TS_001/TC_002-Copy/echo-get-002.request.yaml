@@ -1,0 +1,37 @@
+id: 8a2eeda2-fee0-4552-8547-355f792dd5d7
+name: echo-get-002
+request:
+  url:
+    raw: https://echo.postqode.io/get
+    protocol: https
+    host:
+      - echo
+      - postqode
+      - io
+    path:
+      - get
+  method: GET
+  headers:
+    - description: ''
+      disabled: false
+      key: Cache-Control
+      value: no-cache
+    - description: ''
+      disabled: false
+      key: Accept
+      value: '*/*'
+    - description: ''
+      disabled: false
+      key: Accept-Encoding
+      value: gzip, deflate
+    - description: ''
+      disabled: false
+      key: Connection
+      value: keep-alive
+  body:
+    mode: none
+  auth:
+    type: inheritFromParent
+    inheritFromParent: true
+events: []
+type: request
