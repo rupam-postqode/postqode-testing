@@ -14,6 +14,8 @@ testSteps:
     type: request
   - fileReference: echo-get.request.yaml
     type: request
+  - fileReference: echo-get Copy 1.request.yaml
+    type: request
 auth:
   type: inheritFromParent
   inheritFromParent: true
