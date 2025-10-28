@@ -28,7 +28,14 @@ request:
       disabled: false
       key: Connection
       value: keep-alive
+    - description: One
+      disabled: false
+      key: One
+      value: One
   body:
     mode: none
+  auth:
+    type: inheritFromParent
+    inheritFromParent: true
 events: []
 type: request
