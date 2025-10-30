@@ -1,0 +1,114 @@
+testCaseId: 6faa786e-9dc1-4f4b-bfba-a5f37358cec0
+testStepId: 01e90ce5-39d3-459e-b1b7-ccb0ce9ef473
+testStepName: echo-delete
+testStepType: request
+testStepDetail:
+  id: 01e90ce5-39d3-459e-b1b7-ccb0ce9ef473
+  name: echo-delete
+  request:
+    url:
+      raw: https://echo.postqode.io/delete
+      protocol: https
+      host:
+        - echo
+        - postqode
+        - io
+      path:
+        - delete
+    method: DELETE
+    headers:
+      _items:
+        - description: ''
+          disabled: false
+          key: Cache-Control
+          value: no-cache
+        - description: ''
+          disabled: false
+          key: Accept
+          value: '*/*'
+        - description: ''
+          disabled: false
+          key: Accept-Encoding
+          value: gzip, deflate
+        - description: ''
+          disabled: false
+          key: Connection
+          value: keep-alive
+        - description: caseDescOne
+          disabled: false
+          key: caseKeyOne
+          value: caseValueOne
+        - description: caseDescTwo
+          disabled: false
+          key: caseKeyTwo
+          value: caseValueTwo
+    body:
+      mode: none
+  events: []
+  type: request
+startedAt: 2025-10-30T05:14:51.231Z
+finishedAt: 2025-10-30T05:14:51.716Z
+testResult: PASSED
+response:
+  code: 200
+  headers:
+    _items:
+      - key: Date
+        value: Thu, 30 Oct 2025 05:14:51 GMT
+      - key: Content-Type
+        value: application/json
+      - key: Transfer-Encoding
+        value: chunked
+      - key: Connection
+        value: keep-alive
+      - key: Server
+        value: cloudflare
+      - key: Nel
+        value: '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      - key: Access-Control-Allow-Origin
+        value: '*'
+      - key: Access-Control-Allow-Credentials
+        value: 'true'
+      - key: Permissions-Policy
+        value: interest-cohort=()
+      - key: Strict-Transport-Security
+        value: max-age=31536000; includeSubDomains; preload
+      - key: X-Frame-Options
+        value: SAMEORIGIN
+      - key: X-Content-Type-Options
+        value: nosniff
+      - key: X-Xss-Protection
+        value: 1; mode=block
+      - key: Content-Security-Policy
+        value: upgrade-insecure-requests
+      - key: Access-Control-Allow-Headers
+        value: >-
+          Authorization,
+          Origin,qarma-token,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,postqode-token
+      - key: Referrer-Policy
+        value: origin
+      - key: Cf-Cache-Status
+        value: DYNAMIC
+      - key: Report-To
+        value: >-
+          {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=DHHLD9ypV%2Bz2sEcVLJfnPNoCKx67P4GeR8cWnF0Rj7AQ1%2F3JfoNCxf%2Fo2yjI7qpw6H1RnoCaE8YS4qq4ojUsunS9kkd6G7j6PTPjQBhGdg0%3D"}]}
+      - key: Cf-Ray
+        value: 99686e76fd76e200-MRS
+      - key: Alt-Svc
+        value: h3=":443"; ma=86400
+  cookies: []
+  body: >-
+    {"args":{},"data":"","files":{},"form":{},"headers":{"Accept":"*/*","Accept-Encoding":"gzip,
+    br","Cache-Control":"no-cache","Casekeyone":"caseValueOne","Casekeytwo":"caseValueTwo","Cdn-Loop":"cloudflare;
+    loops=1","Cf-Connecting-Ip":"223.185.131.104","Cf-Ipcountry":"IN","Cf-Ray":"99686e76fd76e200-MRS","Cf-Visitor":"{\"scheme\":\"https\"}","Connection":"close","Host":"echo.postqode.io","User-Agent":"PostQode/1.0"},"json":null,"origin":"223.185.131.104,
+    172.70.108.242","url":"https://echo.postqode.io/delete"}
+  responseTime: 476
+  status: OK
+  responseSize: 645
+assertions: []
+iterationCount: 0
+logs:
+  - message: case pre request
+    level: LOG
+  - message: case tests
+    level: LOG

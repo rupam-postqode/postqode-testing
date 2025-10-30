@@ -4,3 +4,9 @@
   status: passed
   duration: 0
   testSteps: 5
+- id: 4cd971a6-61e2-40f2-8690-2313b55db97e
+  dateCreated: '2025-10-30T05:14:54.527Z'
+  workspaceDirectory: run-history/test_case
+  status: passed
+  duration: 0
+  testSteps: 5
