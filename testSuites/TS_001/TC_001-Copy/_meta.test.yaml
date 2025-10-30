@@ -3,7 +3,8 @@ id: bf7fb425-3a6a-484c-959a-2deb81dd3441
 name: TC_001-Copy
 type: TESTCASE
 testSuiteId: 7d2d345f-5604-4706-88a5-c5446e0c5150
-dependencies: []
+dependencies:
+  - bc714ffa-ec84-4bf2-a762-7080c3636177
 parentId: 7d2d345f-5604-4706-88a5-c5446e0c5150
 testSteps:
   - fileReference: echo-delete.request.yaml

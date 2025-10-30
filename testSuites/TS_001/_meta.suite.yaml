@@ -25,11 +25,11 @@ events:
       exec:
         - console.log("suite tests")
 headers:
-  - description: suite-desc-one
+  - description: suiteDescOne
     disabled: false
-    key: suite-key-one
-    value: suite-value-one
-  - description: suite-desc-two
+    key: suiteKeyOne
+    value: suiteValueOne
+  - description: suiteDescTwo
     disabled: false
-    key: suite-key-two
-    value: suite-value-two
+    key: SuiteKeyTwo
+    value: suiteValueTwo

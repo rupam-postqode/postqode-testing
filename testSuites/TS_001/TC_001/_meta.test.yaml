@@ -1,7 +1,8 @@
 description: ''
 id: 6faa786e-9dc1-4f4b-bfba-a5f37358cec0
 name: TC_001
-dependencies: []
+dependencies:
+  - bf7fb425-3a6a-484c-959a-2deb81dd3441
 type: TESTCASE
 testSuiteId: 7d2d345f-5604-4706-88a5-c5446e0c5150
 parentId: 7d2d345f-5604-4706-88a5-c5446e0c5150
@@ -19,4 +20,23 @@ testSteps:
 auth:
   type: inheritFromParent
   inheritFromParent: true
-events: []
+events:
+  - listen: prerequest
+    script:
+      type: javascript
+      exec:
+        - console.log("case pre request")
+  - listen: test
+    script:
+      type: javascript
+      exec:
+        - console.log("case tests")
+headers:
+  - description: caseDescOne
+    disabled: false
+    key: caseKeyOne
+    value: caseValueOne
+  - description: caseDescTwo
+    disabled: false
+    key: caseKeyTwo
+    value: caseValueTwo

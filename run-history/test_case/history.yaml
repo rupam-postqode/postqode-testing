@@ -1,0 +1,6 @@
+- id: fb5e19ce-d327-4e8e-b32f-393af81ffee3
+  dateCreated: '2025-10-30T05:01:38.656Z'
+  workspaceDirectory: run-history/test_case
+  status: passed
+  duration: 0
+  testSteps: 5
