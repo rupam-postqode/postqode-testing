@@ -1,10 +1,10 @@
-id: cb325b9a-4568-4e8e-8159-e678059f0510
-name: ajay2
+id: a9d065c5-110b-4a95-909f-f0025338fe22
+name: ajay1
 request:
   url:
-    raw: sample1
+    raw: ajay
     host:
-      - sample1
+      - ajay
   method: GET
   headers:
     - description: ''
